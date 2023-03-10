@@ -21,10 +21,10 @@
 package main
 
 import (
-	. "github.com/duolabmeng6/goefun/core"
-	. "github.com/duolabmeng6/goefun/coreUtil"
-	. "github.com/duolabmeng6/goefun/os/ehttp"
-	. "github.com/duolabmeng6/goefun/os/存取键值表"
+	. "github.com/599070001/goefun/core"
+	. "github.com/599070001/goefun/coreUtil"
+	. "github.com/599070001/goefun/os/ehttp"
+	. "github.com/599070001/goefun/os/存取键值表"
 )
 
 func main() {
@@ -67,16 +67,16 @@ func main() {
 # 文档
 
 ## 核心支持库
-https://godoc.org/github.com/duolabmeng6/goefun/core
+https://godoc.org/github.com/599070001/goefun/core
 
 ## 核心支持库工具函数库
-https://godoc.org/github.com/duolabmeng6/goefun/coreUtil
+https://godoc.org/github.com/599070001/goefun/coreUtil
 
 ## 存取键值表
-https://godoc.org/github.com/duolabmeng6/goefun/os/存取键值表
+https://godoc.org/github.com/599070001/goefun/os/存取键值表
 
 ## ehttp
-https://godoc.org/github.com/duolabmeng6/goefun/os/ehttp
+https://godoc.org/github.com/599070001/goefun/os/ehttp
 
 
 # 封装了什么函数?
