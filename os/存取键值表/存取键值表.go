@@ -3,8 +3,8 @@
 package os
 
 import (
-	. "github.com/duolabmeng6/goefun/core"
-	"github.com/duolabmeng6/goefun/os/gabs"
+	. "github.com/599070001/goefun/core"
+	"github.com/599070001/goefun/os/gabs"
 )
 
 type EJson struct {
@@ -127,6 +127,7 @@ func (this *EJson) GetArrayCount(s string) int {
 }
 
 // GetArrayAllData 获取某个数组里面的所有数据
+//
 //	for i, object := range v.GetArrayAllData("array.list") {
 //		fmt.Printf("i:%s value:%s \n", i, object.Path("avg").Data().(string))
 //		fmt.Printf("i:%s value:%s \n", i, object.Path("avg").ToString())

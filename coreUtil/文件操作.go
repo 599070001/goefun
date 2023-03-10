@@ -2,7 +2,7 @@ package E
 
 import (
 	"bytes"
-	. "github.com/duolabmeng6/goefun/core"
+	. "github.com/599070001/goefun/core"
 	"io/ioutil"
 	"os"
 	"path"

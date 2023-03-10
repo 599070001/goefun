@@ -1,7 +1,7 @@
 package gfUtil
 
 import (
-	E "github.com/duolabmeng6/goefun/core"
+	E "github.com/599070001/goefun/core"
 	"github.com/gogf/gf/util/gvalid"
 	"testing"
 )
@@ -42,10 +42,10 @@ func Test校验数据_结构体(t *testing.T) {
 }
 
 func Test校验数据_检查(t *testing.T) {
-	if e := E数据校验_检查("123456", "length:6,16", nil);  e != nil {
+	if e := E数据校验_检查("123456", "length:6,16", nil); e != nil {
 		E.E调试输出(e.String())
 	}
-	if e := E数据校验_检查("12345", "length:6,16", nil);  e != nil {
+	if e := E数据校验_检查("12345", "length:6,16", nil); e != nil {
 		E.E调试输出(e.String())
 	}
 
@@ -55,8 +55,8 @@ func Test校验数据_检查(t *testing.T) {
 
 	rule := "url|min-length:11"
 	msgs := map[string]string{
-		"url"        : "请输入正确的URL地址",
-		"min-length" : "地址长度至少为:min位",
+		"url":        "请输入正确的URL地址",
+		"min-length": "地址长度至少为:min位",
 	}
 	if e := E数据校验_检查("https.goframeorg.ggg", rule, msgs); e != nil {
 		E.E调试输出(e.Map())
@@ -64,7 +64,7 @@ func Test校验数据_检查(t *testing.T) {
 
 	//使用正则验证
 	rule2 := `regex:\d{6,}|\D{6,}|max-length:16`
-	if e := E数据校验_检查("1234562222222222222222222222", rule2, "错误了|超度太长");  e != nil {
+	if e := E数据校验_检查("1234562222222222222222222222", rule2, "错误了|超度太长"); e != nil {
 		E.E调试输出(e.Map())
 	}
 	if e := E数据校验_检查("abcde6", rule2, "错误了"); e != nil {
@@ -74,7 +74,6 @@ func Test校验数据_检查(t *testing.T) {
 	if e := E数据校验_检查("1", "length:6,16", ""); e != nil {
 		E.E调试输出(e.Map())
 	}
-
 
 }
 

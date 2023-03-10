@@ -1,7 +1,7 @@
 package os
 
 import (
-	E "github.com/duolabmeng6/goefun/core"
+	E "github.com/599070001/goefun/core"
 	"testing"
 )
 

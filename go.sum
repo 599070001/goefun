@@ -20,8 +20,8 @@ github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/duolabmeng6/efun v1.0.6 h1:9FWROqUWQW5xoGL7GofvdPe7iF4fRKqX7JcFn5YZVb0=
-github.com/duolabmeng6/efun v1.0.6/go.mod h1:DNaAApxr4xBV/daouyjs1VludJj1TkqA8HhpSyyX4iE=
+github.com/599070001/efun v1.0.6 h1:9FWROqUWQW5xoGL7GofvdPe7iF4fRKqX7JcFn5YZVb0=
+github.com/599070001/efun v1.0.6/go.mod h1:DNaAApxr4xBV/daouyjs1VludJj1TkqA8HhpSyyX4iE=
 github.com/fatih/structs v1.1.0 h1:Q7juDM0QtcnhCpeyLGQKyg4TOIghuNXrkL32pHAUMxo=
 github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=
 github.com/fsnotify/fsnotify v1.4.7 h1:IXs+QLmnXW2CcXuY+8Mzv/fWEsPGWxqefPtCP5CnV9I=

@@ -1,7 +1,7 @@
 package os
 
 import (
-	"github.com/duolabmeng6/goefun/core"
+	"github.com/599070001/goefun/core"
 	"github.com/gogf/gf/os/gtime"
 	"github.com/gogf/gf/os/gtimer"
 	"testing"

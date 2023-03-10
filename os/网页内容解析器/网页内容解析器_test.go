@@ -1,9 +1,9 @@
 package 网页内容解析器
 
 import (
+	. "github.com/599070001/goefun/core"
+	. "github.com/599070001/goefun/os/ehttp"
 	"github.com/PuerkitoBio/goquery"
-	. "github.com/duolabmeng6/goefun/core"
-	. "github.com/duolabmeng6/goefun/os/ehttp"
 	"testing"
 )
 

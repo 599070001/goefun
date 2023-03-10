@@ -1,8 +1,8 @@
 package E
 
 import (
-	"github.com/duolabmeng6/efun/src/utils"
-	. "github.com/duolabmeng6/goefun/core"
+	. "github.com/599070001/goefun/core"
+	"github.com/599070001/goefun/src/utils"
 	"gopkg.in/ini.v1"
 )
 
@@ -26,7 +26,7 @@ func (this *E配置项) E设置节名不区分大小写() {
 	this.节名区分大小写 = true
 }
 
-//InsensitiveLoad
+// InsensitiveLoad
 func (this *E配置项) E加载配置项从文件(fileapth string) bool {
 	var err error
 

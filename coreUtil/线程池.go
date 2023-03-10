@@ -1,7 +1,7 @@
 package E
 
 import (
-	"github.com/duolabmeng6/goefun/src/sizedwaitgroup"
+	"github.com/599070001/goefun/src/sizedwaitgroup"
 )
 
 type E线程池 struct {

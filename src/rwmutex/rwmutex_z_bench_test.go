@@ -7,7 +7,7 @@
 package rwmutex_test
 
 import (
-	"github.com/duolabmeng6/goefun/src/rwmutex"
+	"github.com/599070001/goefun/src/rwmutex"
 	"testing"
 )
 

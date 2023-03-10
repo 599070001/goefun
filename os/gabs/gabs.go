@@ -27,7 +27,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	E "github.com/duolabmeng6/goefun/core"
+	E "github.com/599070001/goefun/core"
 	"io"
 	"io/ioutil"
 	"strconv"
@@ -154,7 +154,7 @@ func (g *Container) GetString(key string) string {
 	}
 	return ""
 }
-func (g *Container) GetArrayAllData(s string) []*Container{
+func (g *Container) GetArrayAllData(s string) []*Container {
 	objects := g.Path(s).Children()
 	return objects
 }
@@ -162,7 +162,6 @@ func (g *Container) GetArrayCount(s string) int {
 	int, _ := g.ArrayCountP(s)
 	return int
 }
-
 
 func (g *Container) E取文本(key string) string {
 	return g.GetString(key)
