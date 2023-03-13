@@ -2,8 +2,8 @@ package os
 
 import (
 	"github.com/599070001/goefun/coreUtil"
+	. "github.com/599070001/goefun/os/HashMap"
 	. "github.com/599070001/goefun/os/ehttp"
-	. "github.com/599070001/goefun/os/存取键值表"
 )
 
 func E获取本机ip() string {

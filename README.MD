@@ -24,7 +24,7 @@ import (
 	. "github.com/599070001/goefun/core"
 	. "github.com/599070001/goefun/coreUtil"
 	. "github.com/599070001/goefun/os/ehttp"
-	. "github.com/599070001/goefun/os/存取键值表"
+	. "github.com/599070001/goefun/os/HashMap"
 )
 
 func main() {
@@ -72,8 +72,8 @@ https://godoc.org/github.com/599070001/goefun/core
 ## 核心支持库工具函数库
 https://godoc.org/github.com/599070001/goefun/coreUtil
 
-## 存取键值表
-https://godoc.org/github.com/599070001/goefun/os/存取键值表
+## HashMap
+https://godoc.org/github.com/599070001/goefun/os/HashMap
 
 ## ehttp
 https://godoc.org/github.com/599070001/goefun/os/ehttp
