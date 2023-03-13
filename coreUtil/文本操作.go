@@ -2,12 +2,14 @@ package E
 
 import (
 	"fmt"
-	. "github.com/599070001/goefun/core"
-	"github.com/gogf/gf/text/gstr"
-	"github.com/gogf/gf/util/grand"
+	"regexp"
 	"strings"
 	"unicode"
 	"unicode/utf8"
+
+	. "github.com/599070001/goefun/core"
+	"github.com/gogf/gf/text/gstr"
+	"github.com/gogf/gf/util/grand"
 )
 
 func E格式化文本(format string, a ...interface{}) string {
@@ -53,6 +55,13 @@ func E文本_取出中间文本(内容 string, 左边文本 string, 右边文本
 	}
 	内容 = string([]byte(内容)[:右边位置])
 	return 内容
+}
+
+// 获取文本数组
+func E文本_取文本中间数组(content, left, right string) [][]string {
+	reg := regexp.MustCompile(left + "(.*?)" + right)
+	fetch := reg.FindAllStringSubmatch(content, -1)
+	return fetch
 }
 
 // 子程序名：文本_取随机字母

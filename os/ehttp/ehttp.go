@@ -21,6 +21,8 @@ import (
 	"github.com/599070001/goefun/src/cookiejar"
 )
 
+var Debug = false
+
 type Ehttp struct {
 	client         *http.Client
 	transport      *http.Transport
@@ -225,13 +227,17 @@ func (this *Ehttp) E访问(url string, 访问方法 string, 发送文本 string,
 	//重定向的操作
 	if this.E重定向方式 != 0 && (resp.StatusCode == 302 || resp.StatusCode == 301) {
 		this.Location = resp.Header.Get("Location")
-		E调试输出格式化("%s %s StatusCode:%d Time:%s ms \nLocation: %s\n", 访问方法, url, resp.StatusCode, t.E取毫秒(), this.Location)
+		if Debug {
+			E调试输出格式化("%s %s StatusCode:%d Time:%s ms \nLocation: %s\n", 访问方法, url, resp.StatusCode, t.E取毫秒(), this.Location)
+		}
 		//自动处理重定向消息
 		if this.E重定向方式 == 2 {
 			return this.E访问(this.Location, "GET", 发送文本, 附加头信息)
 		}
 	} else {
-		E调试输出格式化("%s %s StatusCode:%d Time:%s ms \n", 访问方法, url, resp.StatusCode, t.E取毫秒())
+		if Debug {
+			E调试输出格式化("%s %s StatusCode:%d Time:%s ms \n", 访问方法, url, resp.StatusCode, t.E取毫秒())
+		}
 	}
 
 	//if E判断文本(resp.Header.Get("Content-Type"),"UTF-8") {
