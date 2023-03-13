@@ -6,7 +6,7 @@ require (
 	github.com/Knetic/govaluate v3.0.0+incompatible
 	github.com/PuerkitoBio/goquery v1.5.1
 	github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394
-	github.com/599070001/goefun v1.0.6
+	github.com/599070001/goefun v1.1.1
 	github.com/ganlvtech/go-exportable-cookiejar v0.0.0-20181231191301-34af33d7487e
 	github.com/gogf/gf v1.15.5
 	github.com/gogf/guuid v1.0.0
