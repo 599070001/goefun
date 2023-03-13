@@ -2,7 +2,7 @@ package E
 
 import (
 	. "github.com/599070001/goefun/core"
-	"github.com/599070001/goefun/src/utils"
+	// "github.com/599070001/goefun/src/utils"
 	"gopkg.in/ini.v1"
 )
 
@@ -49,7 +49,7 @@ func (this *E配置项) E加载配置项从内存(v string) bool {
 		IgnoreInlineComment:      true,
 		SpaceBeforeInlineComment: true,
 		Insensitive:              this.节名区分大小写,
-	}, utils.E到字节集(v))
+	}, E到字节集(v))
 
 	if err != nil {
 		E调试输出("配置项加载失败:", err)
